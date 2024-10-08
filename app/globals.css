@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Mate:ital@0;1&family=Prata&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=The+Girl+Next+Door&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+font-family: var(--main-font);
+}
+
+@layer base {
+  :root {
+    --foreground: #222831;
+    --background:  #393e46;
+    --light-bg-color:  #00adb5;
+    --light-color:  #eeeeee; 
+    --orange-color: #ef6c35;
+
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 240 10% 3.9%;
+
+    --radius: 0.5rem;
+
+    --display-font:  "Mate", serif;
+    --secondary-font: "Asul", serif;
+    --prata-font:  "Prata", serif;
+    --play-font: "The Girl Next Door", cursive;
+    --main-font:  "Josefin Sans", sans-serif;
+  }
+  }
+
+  .title-text{
+    font-family: var(--play-font);
+   
+ }
+.intro{
+  font-family: var(--display-font);
+  margin-bottom: 1.5em;
+  font-size: 18px;
+  margin-top: 1em;
+  border-top: 1px solid var(--light-bg-color)
+}
+.hi{
+  font-family: var(--main-font);
+  margin-bottom: .5em;
+  letter-spacing: 2px;
+}
+.headshot{
+  max-width: 350px;
+  border-radius: 100px;
+  border: 2px solid var(--light-bg-color);
+  
+}
+.about-me-link{
+  color:var(--orange-color);
+  font-family: var(--main-font);
+
+}
+.about-link{
+  color: var(--light-bg-color);
+}
+.email-btn, .resume-btn{
+  font-family: var(--display-fontt);
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+.res-btn{
+  background-color: var(--orange-color);
+ 
+
+}
+.follow-me{
+  font-size: 18px;
+}
+.story-btn{
+  font-family: var(--main-font);
+  letter-spacing: .5px;
+  font-weight: 900;
+  line-height: 1.5rem;
+}
+.tech-stack{
+  font-size: 22px;
+
+}
+.card-1{
+  text-align: center;
+
+ 
+}
+.heading{
+  font-family: var(--prata-font);
+}
