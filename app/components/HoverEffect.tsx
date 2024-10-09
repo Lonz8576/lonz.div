@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 export const HoverEffect = ({
   text,
-  duration,
+  
 }: {
   text: string;
   duration?: 20;
@@ -32,7 +32,7 @@ export const HoverEffect = ({
       ref={svgRef}
       width="100%"
       height="100%"
-      viewBox="0 0 1400 100"
+      viewBox="0 0 500 200"
       xmlns="http://www.w3.org/2000/svg"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
@@ -93,7 +93,7 @@ export const HoverEffect = ({
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.9"
-        className="font-sans font-bold stroke-black-300  fill-transparent  text-8xl  "
+        className="font-sans font-bold stroke-black-300  fill-transparent  text-4xl  "
         style={{ opacity: hovered ? 0.9 : 0 }}
       >
         {text}
@@ -104,7 +104,7 @@ export const HoverEffect = ({
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.9"
-        className="font-sans font-bold fill-transparent text-8xl   stroke-blue-100 "
+        className="font-sans font-bold fill-transparent text-4xl   stroke-blue-100 "
         initial={{ strokeDashoffset: 1000, strokeDasharray: 1000 }}
         animate={{
           strokeDashoffset: 0,
@@ -125,7 +125,7 @@ export const HoverEffect = ({
         stroke="url(#textGradient)"
         strokeWidth="0.6"
         mask="url(#textMask)"
-        className="font-sans font-bold fill-white-100  text-8xl "
+        className="font-sans font-bold fill-white-100  text-4xl "
       >
         {text}
       </text>

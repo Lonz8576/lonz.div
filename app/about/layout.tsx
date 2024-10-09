@@ -7,7 +7,7 @@ export default function aboutLayout({
   }) {
     return (
       <div className="relative bg-black-100 flex justify-center items-center h-full pb-80  overflow-hidden mx-auto sm:px-10 px-5">
-        <div className="max-w-xl w-full text-wrap justify-center -top-96 pb-20 mb-20 flex relative -rotate-90">
+        <div className="max-w-lg w-full text-wrap justify-center -top-72   mb-20 sm:hidden lg:flex relative -rotate-90">
          <HoverEffect text='A little about my background' duration={20} />
 
          </div>
