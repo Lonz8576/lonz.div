@@ -35,7 +35,7 @@ export const HoverEffect = ({
       viewBox="0 0 500 200"
       xmlns="http://www.w3.org/2000/svg"
       onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(false)}
+      onMouseLeave={() => setHovered(true)}
       onMouseMove={(e) => setCursor({ x: e.clientX, y: e.clientY })}
       className="align-middle text-center"
     >
@@ -49,8 +49,8 @@ export const HoverEffect = ({
         >
           {hovered && (
             <>
-              <stop offset="0%" stopColor={"var(--yellow-500"} />
-              <stop offset="25%" stopColor={"var(--red-500)"} />
+              <stop offset="0%" stopColor={"var(--blue-500)"} />
+              <stop offset="25%" stopColor={"red"} />
               <stop offset="50%" stopColor={"var(--blue-500)"} />
               <stop offset="75%" stopColor={"var(--cyan-500)"} />
               <stop offset="100%" stopColor={"var(--violet-500)"}/>
@@ -61,7 +61,7 @@ export const HoverEffect = ({
         <motion.radialGradient
           id="revealMask"
           gradientUnits="userSpaceOnUse"
-          r="20%"
+          r="60%"
           animate={maskPosition}
           //     damping: 50,
           transition={{ duration: 20, ease: "easeOut", type: "spring", stiffness: 300, damping: 50 }}
@@ -75,7 +75,7 @@ export const HoverEffect = ({
           //   }}
         >
           <stop offset="0%" stopColor="white" />
-          <stop offset="100%" stopColor="black" />
+          <stop offset="100%" stopColor="blue" />
         </motion.radialGradient>
         <mask id="textMask">
           <rect
@@ -94,7 +94,7 @@ export const HoverEffect = ({
         dominantBaseline="middle"
         strokeWidth="0.9"
         className="font-sans font-bold stroke-black-300  fill-transparent  text-4xl  "
-        style={{ opacity: hovered ? 0.9 : 0 }}
+        style={{ opacity: hovered ? 0.9 : 5 }}
       >
         {text}
       </text>
