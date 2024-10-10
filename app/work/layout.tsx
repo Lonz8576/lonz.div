@@ -6,8 +6,8 @@ export default function WorkLayout({
     children: React.ReactNode
   }) {
     const explicitTheme = {
-      light: ['#f0f0f0', '#c4edde', '#7ac7c4', '#f73859', '#384259'],
-      dark: ['#a0eff3', '#4586ff', '#79c2d0', '#007cb9', '#01005e'],
+      light: ['#141010', '#c4edde', '#7ac7c4', '#f73859', '#384259'],
+      dark: ['#141010','#93deff', '#00bbf0', '#005689', '#ef6c35'],
     }
     return (
 
@@ -19,7 +19,7 @@ export default function WorkLayout({
          {children}
          
          <GitHubCalendar username="lonz8576" theme={explicitTheme}  colorScheme='dark' fontSize={16} showWeekdayLabels={true}   labels={{
-    totalCount: '{{331}} contributions in the last half year',
+    totalCount: '331 contributions in 2024',
   }}     />
      
         </div>
