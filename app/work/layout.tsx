@@ -1,5 +1,5 @@
 
-
+import GitGraph from "../components/GitGraph"
 export default function WorkLayout({
     children, // will be a page or nested layout
   }: {
@@ -16,7 +16,9 @@ export default function WorkLayout({
          </div>
          {children}
          
-       
+       <div>
+        <GitGraph />
+       </div>
      
         </div>
    
