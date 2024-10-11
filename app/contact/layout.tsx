@@ -7,7 +7,7 @@ export default function layout({
 }) {
  
   return (
-    <div className="relative bg-black-100 flex justify-center items-center h-full pb-80  overflow-hidden mx-auto sm:px-10 px-5">
+    <div className="relative bg-black-100 flex align-middle items-center h-full pb-80  overflow-hidden mx-auto sm:px-10 px-5">
         <div>
         {children}
         </div>
