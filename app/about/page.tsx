@@ -30,7 +30,7 @@ export  default function AboutPage() {
           Throughout my career, I have consistently demonstrated a strong ability to adapt, lead teams, and drive efficiency and profitability in fast-paced environments.
           </p>
           <div className="grid grid-cols-1 text-blue-100 gap-1 font-semibold lg:text-[18px] md:text-lg">
-           I  transitioned into the technology field because my previous experiences—spanning health and wellness, parts management, and appliance field technician roles—revealed a common thread: they all lacked the power of better technology to truly make an impact. In each of those roles, you found yourself seeking more—more creativity, more problem-solving, and more ways to help people. Tech became the natural next step for me, where you could merge my diverse background with my passion for innovation and real-world problem solving. It&apos;s not just about technology for me; it&apos;s about using it to create solutions that make a tangible difference in people&apos;s lives.
+           I transitioned into the technology field because my previous experiences—spanning health and wellness, parts management, and appliance field technician roles revealed a common thread: they all lacked the power of better technology to truly make an impact. In each of those roles, I found myself seeking more creativity, more problem-solving, and more ways to help people. Web developement became the natural next step for me, where I could merge my diverse background with my passion for innovation and real-world problem solving. It&apos;s not just about technology for me; it&apos;s about using it to create solutions that make a tangible difference in people&apos;s lives.
           </div>
         </div>
       ),
@@ -53,7 +53,7 @@ export  default function AboutPage() {
       content: (
         <div>
           <p className="text-white-100  text-xs md:text-sm font-normal mb-4">
-          Art and creativity have always been a core part of my life. I have cultivated a deep appreciation for expression, aesthetics, and visual storytelling. This creative foundation has seamlessly translated into your web development work, where I use my artistic skills in various ways:
+          Art and creativity have always been a core part of my life. I have cultivated a deep appreciation for expression, aesthetics, and visual storytelling. This creative foundation has seamlessly translated into my web development work, where I use my artistic skills in various ways:
           </p>
           <div className="mb-8">
             <div className="flex gap-2 items-center text-white-100 text-xs md:text-sm">
