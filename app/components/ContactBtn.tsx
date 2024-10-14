@@ -7,7 +7,7 @@ export default function ContactBtn () {
   return (
     <div>
     <iframe data-tally-src="https://tally.so/embed/nGJEpp?alignLeft=1&dynamicHeight=1" loading="lazy" width="100%" height="372" title="Contact
-"  className='rounded-lg'></iframe>
+"  className='rounded-lg border-blue-100 border-2'></iframe>
         <Script async src="https://tally.so/widgets/embed.js"         
             />
     

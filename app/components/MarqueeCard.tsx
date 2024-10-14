@@ -18,7 +18,7 @@ export function MovingCards() {
 const quote = [
   {
     quote:
-      "  SAY HELLO",
+      "SAY HELLO",
   
   },
   {
@@ -32,7 +32,7 @@ const quote = [
   },
   {
     quote:
-      "  LET'S TALK",
+      "LET'S TALK",
    
   },
   {
