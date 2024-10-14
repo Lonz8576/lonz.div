@@ -24,7 +24,7 @@ const config = {
   prefix: "",
   theme: {
   	container: {
-  		center: 'true',
+  		
   		padding: '3rem',
   		screens: {
   			'2xl': '1300px'

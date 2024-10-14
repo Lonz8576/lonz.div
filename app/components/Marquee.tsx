@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@/lib/utils";
+import { cn } from "./lib/util";
 import React, { useEffect, useState } from "react";
 
 
@@ -13,9 +13,8 @@ export const InfiniteMovingCards = ({
   className,
 }: {
   items: {
-    id: number;
     quote: string;
-    title: string;
+   
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -94,7 +93,7 @@ export const InfiniteMovingCards = ({
               background:
                 "linear-gradient(180deg, var(--slate-800), var(--slate-900)",
             }}
-            key={item.id}
+            key={item.quote}
           >
             <blockquote>
               <div
@@ -109,7 +108,7 @@ export const InfiniteMovingCards = ({
                 <span className="flex flex-col gap-1">
                   
                   <span className=" text-sm leading-[1.6] text-gray-400 font-normal">
-                    {item.title}
+                   
                   </span>
                 </span>
               </div>
