@@ -27,7 +27,7 @@ export default function ContactPage () {
     <div>
         <MovingCards />
     </div>
-    <div className="">
+    <div className="self-center">
     <ContactBtn />
 
     </div>
