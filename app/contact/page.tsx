@@ -1,6 +1,6 @@
 
 import React from "react";
-import ContactForm from "../components/ContactForm";
+
 
 
 
@@ -14,7 +14,7 @@ export default function ContactPage () {
     Got a question, proposal or project or want to work together on something?
     </div>
     
-    <ContactForm />
+    
     
     
     </div>
