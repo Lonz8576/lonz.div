@@ -20,7 +20,7 @@ font-family: var(--main-font);
     --orange-color: #ef6c35;
 
 
-    --radius: 0.5rem;
+ 
 
     --display-font:  "Mate", serif;
     --secondary-font: "Asul", serif;
@@ -61,7 +61,7 @@ font-family: var(--main-font);
   color: var(--light-bg-color);
 }
 .email-btn, .resume-btn{
-  font-family: var(--display-fontt);
+  font-family: var(--display-font);
   font-size: 20px;
   letter-spacing: 2px;
   font-weight: 700;
