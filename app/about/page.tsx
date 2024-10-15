@@ -91,7 +91,7 @@ export  default function AboutPage() {
             My creativity gives you a unique edge in web development, allowing me to blend technical skills with artistic vision to produce websites that are not just functional, but also visually compelling<span className="text-blue-100">.</span>
             </p>
           </div>
-          <div className=" text-blue-100 font bold text-center text-lg ">
+          <div className=" text-blue-100 font bold flex mt-3 justify-evenly text-lg ">
               <Link href='https://portfolio.metamask.io/explore/nfts' >
               Explore my art 😊
               </Link>
