@@ -1,5 +1,5 @@
 import React from 'react'
-import { BentoGrid, BentoGridItem } from '../grid/page'
+import { BentoGrid, BentoGridItem } from '../components/BentoGrid'
 import { gridItems } from '../components';
 import  BackgroundBox  from '../components/BoxCta';
 
