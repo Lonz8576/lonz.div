@@ -1,6 +1,15 @@
 
 import React from "react";
 import { Timeline } from "../components/Timeline";
+import Image from "next/image";
+import gir from '../../public/gir.jpeg'
+import kid from '../../public/new-design-1.jpeg'
+import nft from '../../public/NFT.jpeg'
+import night from '../../public/new-design0 (1).jpeg'
+import rhino from '../../public/rhino.jpeg'
+import bug from '../../public/bug.jpeg'
+import Link from "next/link";
+
 
 export  default function AboutPage() {
   const data = [
@@ -55,29 +64,38 @@ export  default function AboutPage() {
           <p className="text-white-100  text-xs md:text-sm font-normal mb-4">
           Art and creativity have always been a core part of my life. I have cultivated a deep appreciation for expression, aesthetics, and visual storytelling. This creative foundation has seamlessly translated into my web development work, where I use my artistic skills in various ways<span className="text-blue-100">:</span>
           </p>
-          <div className="mb-8">
+          <div className="mb-8 grid grid-cols-2  gap-2">
+            <div className="flex gap-2 items-center text-white-100 text-xs md:text-sm ">
+              <Image src={gir} width={100} height={200} alt="Giraffe Nft" />
+            </div> 
             <div className="flex gap-2 items-center text-white-100 text-xs md:text-sm">
-              ✅ Card grid component
+            <Image src={kid} width={100} height={200} alt="Creep Creep" />
             </div>
             <div className="flex gap-2 items-center text-white-100 text-xs md:text-sm">
-              ✅ Startup template Aceternity
+            <Image src={nft} width={100} height={200} alt="Transform" />
             </div>
             <div className="flex gap-2 items-center text-white-100 text-xs md:text-sm">
-              ✅ Random file upload lol
+            <Image src={night} width={100} height={200} alt="Night brfore Halloween" />
             </div>
             <div className="flex gap-2 items-center text-white-100 text-xs md:text-sm">
-              ✅ Himesh Reshammiya Music CD
+            <Image src={rhino} width={100} height={200} alt="rhino" />
             </div>
             <div className="flex gap-2 items-center text-white-100 text-xs md:text-sm">
-              ✅ Salman Bhai Fan Club registrations open
+            <Image src={bug} width={100} height={200} alt="rhino" />
             </div>
-            <p className="text-white-100">
+           
+          </div>
+          <div className="flex">
+           
+          <p className="text-white-100">
             My creativity gives you a unique edge in web development, allowing me to blend technical skills with artistic vision to produce websites that are not just functional, but also visually compelling<span className="text-blue-100">.</span>
             </p>
           </div>
-          <div className="grid grid-cols-2 gap-4">
-            
-          </div>
+          <div className=" text-blue-100 font bold text-center text-lg ">
+              <Link href='https://portfolio.metamask.io/explore/nfts' >
+              Explore my art 😊
+              </Link>
+            </div>
         </div>
       ),
     },
