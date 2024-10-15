@@ -4,7 +4,7 @@ import { Boxes } from  '../components/BackgroundBox';
 import { cn } from "../components/lib/util";
 import CtaHighlight from "./page";
 
-export function BackgroundBox() {
+export default function BackgroundBox() {
   return (
     <div className="h-96 relative w-full overflow-hidden bg-black flex flex-col items-center justify-center rounded-lg">
       <div className="absolute inset-0 w-full h-full bg-black-100 z-20 [mask-image:radial-gradient(transparent,white)] pointer-events-none" />
