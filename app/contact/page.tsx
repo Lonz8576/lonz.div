@@ -32,6 +32,9 @@ export default function ContactPage () {
 
     </div>
     </div>
+    <div className="text-white-100 text-3xl font-bold text-center pt-30">
+    8576nic@gmail.com
+    </div>
     </div>
 
   )

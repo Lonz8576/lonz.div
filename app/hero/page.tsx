@@ -56,9 +56,9 @@ const Hero = () => {
             </div>
 
           <div className=' flex justify-evenly'>
-            <a href='#Contact' target='_blank'>
+            <Link href='mailto:8576nic@gmail.com' target='_blank'>
                 <ButtonAplogetic title='Email Me' />
-            </a>
+            </Link>
             <a href='https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:e99add4c-cfe5-490e-89bc-06c18bf93b58' target='_blank'> 
               <ButtonResume />
               </a>
