@@ -4,12 +4,6 @@ import React from "react";
 import ContactBtn from "../components/ContactBtn";
 import { MovingCards } from "../components/MarqueeCard";
 
-
-
-
-
-
-
 export default function ContactPage () {
   
 
