@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+
 
 import React from 'react'
 import { projects } from '../components'
@@ -7,6 +7,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { PinContainer } from '../components/Pin-3d';
 import { FaGithub } from "react-icons/fa";
 import Link from 'next/link';
+import Image from 'next/image';
 
 
 
@@ -41,7 +42,7 @@ export default function Workpage () {
                       {des}
                     </div>
                     <div className='h-[25rem] overflow-hidden w-fit relative justify-center justify-items-center place-self-center'>
-                      <img
+                      <Image
                         src={img}
                         alt={title}
                         className='z-10 relative flex align-bottom justify-center items-center w-full  overflow-hidden rounded-lg' />
@@ -54,7 +55,7 @@ export default function Workpage () {
                           style={{
                             transform: `translateX(-${5 * index * 2}px)`
                           }} >
-                            <img src={icon} alt={icon} className='bg-black'/>
+                            <Image src={icon} alt={icon} className='bg-black'/>
 
                           </div>
                          )) }
