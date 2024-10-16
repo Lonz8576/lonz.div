@@ -32,10 +32,10 @@ export const HoverEffect = ({
       ref={svgRef}
       width="100%"
       height="100%"
-      viewBox="0 0 500 200"
+      viewBox="0 0 460 300"
       xmlns="http://www.w3.org/2000/svg"
       onMouseEnter={() => setHovered(true)}
-      onMouseLeave={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
       onMouseMove={(e) => setCursor({ x: e.clientX, y: e.clientY })}
       className="align-middle text-center"
     >
@@ -63,17 +63,8 @@ export const HoverEffect = ({
           gradientUnits="userSpaceOnUse"
           r="60%"
           animate={maskPosition}
-          //     damping: 50,
-          transition={{ duration: 20, ease: "easeOut", type: "spring", stiffness: 300, damping: 50 }}
-
-          // example for a smoother animation below
-
-          //   transition={{
-          //     type: "spring",
-          //     stiffness: 300,
-          //     damping: 50,
-          //   }}
-        >
+         
+          transition={{ duration: 20, ease: "easeInOut", type: "spring", stiffness: 300, damping: 50 }} >
           <stop offset="0%" stopColor="white" />
           <stop offset="100%" stopColor="blue" />
         </motion.radialGradient>
@@ -93,8 +84,9 @@ export const HoverEffect = ({
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.9"
-        className="font-sans font-bold stroke-black-300  fill-transparent  text-4xl  "
-        style={{ opacity: hovered ? 0.9 : 5 }}
+        className="font-sans font-bold stroke-black-300  fill-transparent  text-6xl  "
+        style={{ opacity: hovered ? 0.7 : 5 }}
+        
       >
         {text}
       </text>
@@ -104,14 +96,14 @@ export const HoverEffect = ({
         textAnchor="middle"
         dominantBaseline="middle"
         strokeWidth="0.9"
-        className="font-sans font-bold fill-transparent text-4xl   stroke-blue-100 "
+        className="font-sans font-bold fill-transparent text-6xl   stroke-blue-100 "
         initial={{ strokeDashoffset: 1000, strokeDasharray: 1000 }}
         animate={{
           strokeDashoffset: 0,
           strokeDasharray: 1000,
         }}
         transition={{
-          duration: 10,
+          duration: 20,
           ease: "easeInOut",
         }}
       >
@@ -123,9 +115,9 @@ export const HoverEffect = ({
         textAnchor="middle"
         dominantBaseline="middle"
         stroke="url(#textGradient)"
-        strokeWidth="0.6"
+        strokeWidth="0.3"
         mask="url(#textMask)"
-        className="font-sans font-bold fill-white-100  text-4xl "
+        className="font-sans font-bold fill-white-100  text-6xl "
       >
         {text}
       </text>

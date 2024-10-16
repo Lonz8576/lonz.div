@@ -18,7 +18,7 @@ export  default function AboutPage() {
       content: (
         <div>
           <p className="text-white-100 lg:text-[18px] md:text-md font-normal mb-5">
-            I first discovered web development after an injury left me with physical limitations in 2021. I realised it was a creative feild mixed with problem-solving and it was ever-evolving! I decided to enroll in <span className="text-blue-100 tracking-wider font-semibold underline"><a href="https://www.shecodes.io/graduates/126818-nichole-alonso" >SheCodes Frontend development</a></span> program to dedicate 100% of my time<span className="text-blue-100">.</span>
+            I first discovered web development after an injury left me with physical limitations in 2021. I realised it was a creative feild mixed with problem-solving and it was ever-evolving! I decided to enroll in <span className="text-blue-100 tracking-wider font-semibold underline"><a href="https://www.shecodes.io/graduates/126818-nichole-alonso" >SheCodes Frontend development</a></span> program to dedicate 100% of my time<span className="text-blue-100  text-3xl ps-1">.</span>
           </p>
           <div className="grid grid-cols-2 gap-1">
            
@@ -31,15 +31,15 @@ export  default function AboutPage() {
       content: (
         <div>
           <p className="text-white-100  lg:text-[18px] md:text-md font-normal mb-5">
-          With over a decade of diverse experience, I have developed a strong foundation in business management, customer service, operations, and team leadership. My career began in the fitness industry, where I served as a personal trainer and later founded and operated my own fitness studio for 10 years. In this role, I honed my skills in social media marketing, event planning, and collaboration with local businesses, while overseeing all aspects of business operations, including budgeting, invoicing, inventory management, promotional campaigns, and customer service<span className="text-blue-100">.</span>
+          With over a decade of diverse experience, I have developed a strong foundation in business management, customer service, operations, and team leadership. My career began in the fitness industry, where I served as a personal trainer and later founded and operated my own fitness studio for 10 years. In this role, I honed my skills in social media marketing, event planning, and collaboration with local businesses, while overseeing all aspects of business operations, including budgeting, invoicing, inventory management, promotional campaigns, and customer service<span className="text-blue-100  text-3xl ps-1">.</span>
 
-          Transitioning to the role of Warehouse Parts Manager, I brought my management expertise to a new industry, where I was responsible for inventory control, cost management, and overseeing field technicians. My duties included maintaining stock levels, managing technician schedules, handling repairs and truck maintenance, and ensuring smooth communication between our office, factory, dealers, and customers. I also trained new employees, handled customer service and complaint resolution, and maintained service equipment for remote workers<span className="text-blue-100">.</span>
+          Transitioning to the role of Warehouse Parts Manager, I brought my management expertise to a new industry, where I was responsible for inventory control, cost management, and overseeing field technicians. My duties included maintaining stock levels, managing technician schedules, handling repairs and truck maintenance, and ensuring smooth communication between our office, factory, dealers, and customers. I also trained new employees, handled customer service and complaint resolution, and maintained service equipment for remote workers<span className="text-blue-100  text-3xl ps-1">.</span>
          </p>
           <p className="text-white-100 lg:text-[18px] md:text-md font-normal mb-5">
           Throughout my career, I have consistently demonstrated a strong ability to adapt, lead teams, and drive efficiency and profitability in fast-paced environments<span className="text-blue-100">.</span>
           </p>
           <div className="grid grid-cols-1 text-blue-100 gap-1 font-semibold lg:text-[18px] md:text-lg">
-           I transitioned into the technology field because my previous experiences—spanning health and wellness, parts management, and appliance field technician roles revealed a common thread: they all lacked the power of better technology to truly make an impact. In each of those roles, I found myself seeking more creativity, more problem-solving, and more ways to help people. Web developement became the natural next step for me, where I could merge my diverse background with my passion for innovation and real-world problem solving. It&apos;s not just about technology for me; it&apos;s about using it to create solutions that make a tangible difference in people&apos;s lives<span className="text-white-100">.</span>
+           I transitioned into the technology field because my previous experiences—spanning health and wellness, parts management, and appliance field technician roles revealed a common thread: they all lacked the power of better technology to truly make an impact. In each of those roles, I found myself seeking more creativity, more problem-solving, and more ways to help people. Web developement became the natural next step for me, where I could merge my diverse background with my passion for innovation and real-world problem solving. It&apos;s not just about technology for me; it&apos;s about using it to create solutions that make a tangible difference in people&apos;s lives.
           </div>
         </div>
       ),
@@ -48,10 +48,10 @@ export  default function AboutPage() {
       title: "My Experience.",
       content: (
         <div>
-          <p className="text-white-100  lg:text-[18px] md:text-md font-normal mb-5"> While I may not have decades of experience in web development, I do have a solid foundation, having worked as a freelance web developer on various projects for private clients and small businesses. These experiences have allowed me to hone my skills in real-world settings and apply my passion for problem-solving to create tailored solutions. I stay deeply committed to learning, always staying up to date with the latest technologies and trends in the industry<span className="text-blue-100">.</span>
+          <p className="text-white-100  lg:text-[18px] md:text-md font-normal mb-5"> While I may not have decades of experience in web development, I do have a solid foundation, having worked as a freelance web developer on various projects for private clients and small businesses. These experiences have allowed me to hone my skills in real-world settings and apply my passion for problem-solving to create tailored solutions. I stay deeply committed to learning, always staying up to date with the latest technologies and trends in the industry<span className="text-blue-100  text-3xl ps-1">.</span>
           </p>
           <p className="text-white-100  lg:text-[18px] md:text-md  font-normal mb-5">
-          My mindset is one of persistence—I won&apos;t stop until I get it right. I&apos;m always ready to put in the work, even if it means learning new tools or techniques to ensure success. What I need now is for someone to take a chance on me, because I know I can deliver exceptional results for any company willing to invest in my potential<span className="text-blue-100">.</span>
+          My mindset is one of persistence—I won&apos;t stop until I get it right. I&apos;m always ready to put in the work, even if it means learning new tools or techniques to ensure success. What I need now is for someone to take a chance on me, because I know I can deliver exceptional results for any company willing to invest in my potential<span className="text-blue-100 text-3xl ps-1">.</span>
           </p>
         </div>
       ),
