@@ -1,4 +1,4 @@
-
+import React from "react";
 import GitGraph from "../components/GitGraph"
 export default function WorkLayout({
     children, // will be a page or nested layout
@@ -20,9 +20,6 @@ export default function WorkLayout({
         <GitGraph />
        </div>
      
-        </div>
-   
-    
-     
-    )
+        </div>    
+    );
   }

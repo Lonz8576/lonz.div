@@ -6,14 +6,14 @@ import { MdArrowForwardIos } from "react-icons/md";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { PinContainer } from '../components/Pin-3d';
 import { FaGithub } from "react-icons/fa";
-import Link from 'next/link';
 
 
 
-const git= <Link href='https://github.com/Lonz8576'><FaGithub /></Link> 
+
+const git= <a href='https://github.com/Lonz8576'><FaGithub /></a> 
 
 
-export default function PinPage () {
+export default function PinPage() {
  
   return (
     <div className=" w-full h-full relative bg-black-100 flex justify-center  mx-auto sm:px-10 px-10 pb-30">
@@ -81,6 +81,6 @@ export default function PinPage () {
 
       </div>
     </div>
-  )
+  );
 }
 
