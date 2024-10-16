@@ -1,6 +1,5 @@
-import React from 'react'
-
-export default function layout({
+import React from 'react';
+export default function Contactlayout({
     children, 
 }: {
   children: React.ReactNode
@@ -12,8 +11,5 @@ export default function layout({
         {children}
         </div>
     </div>
-  )
+  );
 }
-
-
-

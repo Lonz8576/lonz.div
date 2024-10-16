@@ -1,11 +1,11 @@
-import React from 'react'
-import PinPage from '../components/PinPage'
+import React from 'react';
+import PinPage from '../components/PinPage';
 
-export default function page() {
+export default function Work() {
   return (
     <div>
       <PinPage />
     </div>
-  )
+  );
 }
 

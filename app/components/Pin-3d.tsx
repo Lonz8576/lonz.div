@@ -1,4 +1,4 @@
-
+'use client'
 import React, { useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "./lib/util";
@@ -8,7 +8,6 @@ export const PinContainer = ({
   children,
   title,
   href,
- 
   className,
  
 }: {
@@ -38,7 +37,7 @@ export const PinContainer = ({
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
-      href={href || "/"}
+      href={"/"}
     >
       <div
         style={{

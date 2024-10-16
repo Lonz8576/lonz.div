@@ -2,7 +2,7 @@ import GitHubCalendar from 'react-github-calendar';
 
 import React from 'react'
 
-const GitGraph = () => {
+export default function GitGraph () {
     const explicitTheme = {
         light: ['#141010', '#c4edde', '#7ac7c4', '#f73859', '#384259'],
         dark: ['#141010','#93deff', '#00bbf0', '#005689', '#ef6c35'],
@@ -18,4 +18,4 @@ const GitGraph = () => {
   )
 }
 
-export default GitGraph
+

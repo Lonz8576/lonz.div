@@ -1,3 +1,5 @@
+'use client'
+
 import React from 'react'
 import  { TextGenerateEffect } from '../components/TextGenerateEffect'
 import ButtonAplogetic from '../components/ButtonAplogetic'

@@ -1,4 +1,4 @@
-/* eslint-disable @next/next/no-img-element */
+'useclient'
 import { cn } from "./lib/util";
 import { FlipWord } from "./FlipStack";
 import ShimmerBtn from "../grid/layout";
