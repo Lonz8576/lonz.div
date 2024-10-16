@@ -10,11 +10,11 @@ import Link from 'next/link';
 
 
 
-
+const git= <Link href='https://github.com/Lonz8576'><FaGithub /></Link> 
 
 
 export default function PinPage () {
-  const git= <Link href='https://github.com/Lonz8576'><FaGithub /></Link> 
+ 
   return (
     <div className=" w-full h-full relative bg-black-100 flex justify-center  mx-auto sm:px-10 px-10 pb-30">
       <h1 className='heading flex relative text-start top-44 text-blue-100 lg:text-6xl md:text-4xl sm:text-2xl pb-20 hover:underline leading-loose font-bold'>
