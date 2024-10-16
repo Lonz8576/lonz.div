@@ -1,12 +1,9 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
-/* eslint-disable @typescript-eslint/no-explicit-any */
 
-/* eslint-disable @typescript-eslint/no-require-imports */
 import type { Config } from "tailwindcss";
 
 import svgToDataUri from "mini-svg-data-uri";
 
-// eslint-disable-next-line @typescript-eslint/no-require-imports
+
 const colors = require("tailwindcss/colors");
 const {
   default: flattenColorPalette,
@@ -180,7 +177,7 @@ const config = {
   	}
   },
   plugins: [
-    // eslint-disable-next-line @typescript-eslint/no-require-imports
+  
     require("tailwindcss-animate"),
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
