@@ -18,7 +18,7 @@ export  default function AboutPage() {
       content: (
         <div>
           <p className="text-white-100 lg:text-[18px] md:text-md font-normal mb-5">
-            I first discovered web development after an injury left me with physical limitations in 2021. I realised it was a creative feild mixed with problem-solving and it was ever-evolving! I decided to enroll in SheCodes Frontend development program to dedicate 100% of my time<span className="text-blue-100">.</span>
+            I first discovered web development after an injury left me with physical limitations in 2021. I realised it was a creative feild mixed with problem-solving and it was ever-evolving! I decided to enroll in <span className="text-blue-100 tracking-wider font-semibold underline"><a href="https://www.shecodes.io/graduates/126818-nichole-alonso" >SheCodes Frontend development</a></span> program to dedicate 100% of my time<span className="text-blue-100">.</span>
           </p>
           <div className="grid grid-cols-2 gap-1">
            
@@ -48,8 +48,7 @@ export  default function AboutPage() {
       title: "My Experience.",
       content: (
         <div>
-          <p className="text-white-100  lg:text-[18px] md:text-md font-normal mb-5">
-          While I may not have decades of experience in web development, I do have a solid foundation, having worked as a freelance web developer on various projects for private clients and small businesses. These experiences have allowed me to hone my skills in real-world settings and apply my passion for problem-solving to create tailored solutions. I stay deeply committed to learning, constantly staying up to date with the latest technologies and trends in the industry<span className="text-blue-100">.</span>
+          <p className="text-white-100  lg:text-[18px] md:text-md font-normal mb-5"> While I may not have decades of experience in web development, I do have a solid foundation, having worked as a freelance web developer on various projects for private clients and small businesses. These experiences have allowed me to hone my skills in real-world settings and apply my passion for problem-solving to create tailored solutions. I stay deeply committed to learning, always staying up to date with the latest technologies and trends in the industry<span className="text-blue-100">.</span>
           </p>
           <p className="text-white-100  lg:text-[18px] md:text-md  font-normal mb-5">
           My mindset is one of persistence—I won&apos;t stop until I get it right. I&apos;m always ready to put in the work, even if it means learning new tools or techniques to ensure success. What I need now is for someone to take a chance on me, because I know I can deliver exceptional results for any company willing to invest in my potential<span className="text-blue-100">.</span>
