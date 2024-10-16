@@ -1,5 +1,5 @@
 
-
+'use client'
 import React from 'react'
 import { projects } from '../components'
 import { MdArrowForwardIos } from "react-icons/md";
@@ -7,7 +7,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { PinContainer } from '../components/Pin-3d';
 import { FaGithub } from "react-icons/fa";
 import Link from 'next/link';
-import Image from 'next/image';
+
 
 
 
@@ -42,9 +42,11 @@ export default function PinPage () {
                       {des}
                     </div>
                     <div className='h-[25rem] overflow-hidden w-fit relative justify-center justify-items-center place-self-center'>
-                      <Image
+                      <img
                         src={img}
                         alt={title}
+                        width={200}
+                        height={200}
                         className='z-10 relative flex align-bottom justify-center items-center w-full  overflow-hidden rounded-lg' />
                         </div>
                         
@@ -55,7 +57,7 @@ export default function PinPage () {
                           style={{
                             transform: `translateX(-${5 * index * 2}px)`
                           }} >
-                            <Image src={icon} alt={icon} className='bg-black'/>
+                            <img src={icon} alt={icon} className='bg-black'/>
 
                           </div>
                          )) }
