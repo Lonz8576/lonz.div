@@ -1,5 +1,5 @@
 
-'use client'
+
 import React from 'react'
 import { projects } from '../components'
 import { MdArrowForwardIos } from "react-icons/md";
