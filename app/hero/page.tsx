@@ -25,16 +25,16 @@ const Hero = () => {
             <h2 className=' relative items-center md:text-[22px]  text-start sm:text-sm  lg:text-[28px]  text-blue-100 font-semibold hi grid-rows-2 '>HI!</h2>
       </div>
       <div className='items-center'>
-            <TextGenerateEffect  className='text-start  text-[42px] md:text-4xl  lg:text-5xl sm:text-1xl relative  2xl:text-7xl pt-2 items-center m-w-[40vw] title-text'
+            <TextGenerateEffect  className='text-start  text-[42px] md:text-3xl sm:text-lg lg:text-5xl relative  2xl:text-7xl pt-2 items-center m-w-[40vw] title-text'
            words="I'm Nichole, you can call me Nic" />
            </div>
            <div className='grid grid-rows-subgrid'>
-            <div className='row-start-4 intro text-white-100 tracking-widest pt-5 '>
+            <div className='row-start-4 intro text-white-100  tracking-widest pt-5 '>
        I&apos;m a Frontend Developer who loves problem-solving, bringing ideas to life to give the best overall user experience. Based in the U.S
        </div>
     </div>
 
-    <div className='row-start-7 mt-8 text-white-100 tracking-widest flex  justify-center  text-[20px] about-me-link'>
+    <div className='row-start-7 mt-8 text-white-100 tracking-widest flex  justify-center  text-[20px] about-me-link lg:text-2xl md:text-lg sm:text-md '>
         Know more
          <span className='about-link flex px-3'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 24" stroke-width="2.5" stroke="currentColor" className="size-7">
@@ -55,7 +55,7 @@ const Hero = () => {
               </picture>
             </div>
 
-          <div className=' flex justify-evenly'>
+          <div className=' flex justify-evenly md:justify-around sm:justify-around'>
             <Link href='mailto:8576nic@gmail.com' target='_blank'>
                 <ButtonAplogetic title='Email Me' />
             </Link>
