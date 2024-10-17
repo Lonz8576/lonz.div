@@ -64,7 +64,6 @@ font-family: var(--main-font);
 }
 .email-btn, .resume-btn{
   font-family: var(--display-font);
-  font-size: 20px;
   letter-spacing: 2px;
   font-weight: 700;
 }

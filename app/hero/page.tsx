@@ -24,7 +24,7 @@ const Hero = () => {
 
             <h2 className=' relative items-center md:text-[22px]  text-start sm:text-sm  lg:text-[28px]  text-blue-100 font-semibold hi grid-rows-2 '>HI!</h2>
       </div>
-      <div className='items-center'>
+      <div className='items-center flex sm:justify-center'>
             <TextGenerateEffect  className='text-start  text-[42px] md:text-4xl xs:text-lg sm:text-2xl  lg:text-5xl relative  2xl:text-7xl pt-2 items-center m-w-[40vw] title-text'
            words="I'm Nichole, you can call me Nic" />
            </div>
@@ -43,7 +43,7 @@ const Hero = () => {
         </span>
         </div>
         <div className='follow-me flex text-white-100 row-start-10 justify-center align-middle py-5'>
-            <picture className='flex text-center sm:justify-center justify-evenly align-middle'>
+            <picture className='flex text-center sm:justify-center justify-evenly align-middle sm:gap-6'>
               Follow me:
                 <a href='https://github.com/Lonz8576'>
                <Image src={git} alt='github' width={30} height={30} className='mx-3' />
@@ -55,7 +55,7 @@ const Hero = () => {
               </picture>
             </div>
 
-          <div className=' flex justify-evenly md:justify-around sm:justify-around sm:pb-30'>
+          <div className=' flex justify-evenly md:justify-around sm:justify-around  sm:pb-10 md:pb-0'>
             <Link href='mailto:8576nic@gmail.com' target='_blank'>
                 <ButtonAplogetic title='Email Me' />
             </Link>
@@ -69,7 +69,7 @@ const Hero = () => {
                  
         </div>
         </div>
-        <div className=' images ms-8 pb-20 md:flex justify-evenly sm:hidden '>
+        <div className='images mb-20 pb-20 md:flex justify-evenly xs:hidden sm:hidden '>
           <picture>
         <Image src={headshot} width={300}  height={300} className='flex headshot relative -top-10  shadow-lg items-center  justify-between' alt='Nics headshot' />
         </picture>

@@ -49,7 +49,7 @@ export const BentoGridItem = ({
   return (
     <div
       className={cn(
-        "row-span-1 rounded-3xl overflow-hidden relative  shadow-input bg-gradient-to-b from-blue-100/[0.4] to-black-200/50  border-4 border-blue-100 justify-between flex flex-col space-y-2 grid-bento",
+        "row-span-1 rounded-3xl overflow-hidden relative  shadow-input bg-gradient-to-b from-blue-100/[0.4] to-black-200/50  border-4 border-blue-100 justify-between  flex flex-col space-y-2 grid-bento",
         className
       )}
 
@@ -57,11 +57,11 @@ export const BentoGridItem = ({
       
       
          
-        <div className="font-normal text-white-100 bento-title">
+        <div className="font-normal text-white-100 bento-title md:py-2">
         {title}
-      <div className=" bento-description">
+      <div className=" bento-description md:py-2">
       
-          <div className="flex relative justify-center py-1">
+          <div className="flex relative justify-center py-1 sm:text-sm md:text-[18px]   ">
           {id === 2 && <ShimmerBtn />}
           {description} 
           </div>
