@@ -6,7 +6,7 @@ import Image from 'next/image'
 import git from "../../public/git.svg"
 import linkedin from "../../public/linkedin icon.svg"
 import Link from 'next/link'
-
+import headshot from '../../public/headshot.jpg'
 
 const linksite= 'www.linkedin.com/in/nicalonso'
 
@@ -25,7 +25,7 @@ const Hero = () => {
             <h2 className=' relative items-center md:text-[22px]  text-start sm:text-sm  lg:text-[28px]  text-blue-100 font-semibold hi grid-rows-2 '>HI!</h2>
       </div>
       <div className='items-center'>
-            <TextGenerateEffect  className='text-start  text-[42px] md:text-3xl sm:text-lg lg:text-5xl relative  2xl:text-7xl pt-2 items-center m-w-[40vw] title-text'
+            <TextGenerateEffect  className='text-start  text-[42px] md:text-4xl xs:text-lg sm:text-2xl  lg:text-5xl relative  2xl:text-7xl pt-2 items-center m-w-[40vw] title-text'
            words="I'm Nichole, you can call me Nic" />
            </div>
            <div className='grid grid-rows-subgrid'>
@@ -43,7 +43,7 @@ const Hero = () => {
         </span>
         </div>
         <div className='follow-me flex text-white-100 row-start-10 justify-center align-middle py-5'>
-            <picture className='flex text-center justify-between align-middle'>
+            <picture className='flex text-center sm:justify-center justify-evenly align-middle'>
               Follow me:
                 <a href='https://github.com/Lonz8576'>
                <Image src={git} alt='github' width={30} height={30} className='mx-3' />
@@ -55,7 +55,7 @@ const Hero = () => {
               </picture>
             </div>
 
-          <div className=' flex justify-evenly md:justify-around sm:justify-around'>
+          <div className=' flex justify-evenly md:justify-around sm:justify-around sm:pb-30'>
             <Link href='mailto:8576nic@gmail.com' target='_blank'>
                 <ButtonAplogetic title='Email Me' />
             </Link>
@@ -69,9 +69,9 @@ const Hero = () => {
                  
         </div>
         </div>
-        <div className=' images ms-8 '>
+        <div className=' images ms-8 pb-20 md:flex justify-evenly sm:hidden '>
           <picture>
-        <img src= 'https://www.canva.com/design/DAGMiNLV1FQ/_2PPK32GCHCeuLcmDzwIXA/view?utm_content=DAGMiNLV1FQ&utm_campaign=designshare&utm_medium=link&utm_source=editor'  className='flex headshot relative -top-20 shadow-lg items-center justify-between' alt='Nics headshot' />
+        <Image src={headshot} width={300}  height={300} className='flex headshot relative -top-10  shadow-lg items-center  justify-between' alt='Nics headshot' />
         </picture>
           
            </div>
