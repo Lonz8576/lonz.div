@@ -79,7 +79,7 @@ export const navItems = [
       url: 'https://github.com/Lonz8576',
       des: "AI Poem Generator is an AI-powered online tool that can help you generate poems inspired by the Sapphic period.",
       img: "./aipoem.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", ""],
+      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
       link: "https://lambent-parfait-7774fc.netlify.app",
     },
     {
@@ -88,7 +88,7 @@ export const navItems = [
       url: 'https://github.com/Lonz8576',
       des: "Real time weather app built with React, animated icons and api interfaces.",
       img: "./weather2.png",
-      iconLists: ["./re.svg", "./three.svg", "/ts.svg", "./api.png", ""],
+      iconLists: ["./re.svg", "./three.svg", "./ts.svg", "./api.png"],
       link: "https://github.com/adrianhajdin/iphone",
     },
     {
@@ -115,7 +115,7 @@ export const navItems = [
       title: "Dynamic Pricing toggler",
       des: "Pricing toggler, componet made to add to websites and use template as needed.",
       img: "./pricing-toggler.png",
-      iconLists: ["./css3.png", "./git.svg", ".JS.png", "./three.svg", "./html-5.png"],
+      iconLists: ["/css3.png", "/git.svg", "./JS.png", "./three.svg",    "./html-5.png"],
       link: "https://pricing-toggler.netlify.app/",
     },
   ];
