@@ -70,7 +70,7 @@ export const navItems = [
       url: 'https://github.com/Lonz8576',
       des: "Personalized therapy professional portfolio, with built in scheduling and payments options for clients.",
       img: "./therapy.png",
-      iconLists: ["./api.png", "./link.svg", "./JS.png", "./three.svg"],
+      iconLists: ["./api.png", "./link.svg", "./JS.png", "./bootstrap.png"],
       link: "https://sessionscounseling.netlify.app",
     },
     {
@@ -79,7 +79,7 @@ export const navItems = [
       url: 'https://github.com/Lonz8576',
       des: "AI Poem Generator is an AI-powered online tool that can help you generate poems inspired by the Sapphic period.",
       img: "./aipoem.png",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg"],
+      iconLists: [ "./JS.png", "/ai.png", "/bootstrap.png", "./api.png", "./css3.png"],
       link: "https://lambent-parfait-7774fc.netlify.app",
     },
     {
@@ -106,7 +106,7 @@ export const navItems = [
       url: 'https://github.com/Lonz8576',
       des: "Complete Ecommerence site built with stripe api, email.js and bootstrap",
       img: "./mmsite.png",
-      iconLists: ["./JS.png", "./api.png", "./ts.svg"],
+      iconLists: ["./JS.png", "./api.png", "./bootstrap.png", "./git.png", "./html-5.png"],
       link: "https://marshmallow-moon.netlify.app",
     },
     {
@@ -115,7 +115,7 @@ export const navItems = [
       title: "Dynamic Pricing toggler",
       des: "Pricing toggler, componet made to add to websites and use template as needed.",
       img: "./pricing-toggler.png",
-      iconLists: ["/css3.png", "/git.svg", "./JS.png", "./three.svg",    "./html-5.png"],
+      iconLists: ["/css3.png", "/git.svg", "/JS.png",  "./html-5.png"],
       link: "https://pricing-toggler.netlify.app/",
     },
   ];
