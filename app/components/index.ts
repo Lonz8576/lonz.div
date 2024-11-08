@@ -70,7 +70,7 @@ export const navItems = [
       url: 'https://github.com/Lonz8576',
       des: "Personalized therapy professional portfolio, with built in scheduling and payments options for clients.",
       img: "./therapy.png",
-      iconLists: ["./api.png", "./link.svg", "./JS.png", "./bootstrap.png"],
+      iconLists: ["./api.png", "./html-5.png", "./JS.png", "./bootstrap.png"],
       link: "https://sessionscounseling.netlify.app",
     },
     {
@@ -79,7 +79,7 @@ export const navItems = [
       url: 'https://github.com/Lonz8576',
       des: "AI Poem Generator is an AI-powered online tool that can help you generate poems inspired by the Sapphic period.",
       img: "./aipoem.png",
-      iconLists: [ "./JS.png", "/ai.png", "/bootstrap.png", "./api.png", "./css3.png"],
+      iconLists: [ "./JS.png", "./css3.png", "/bootstrap.png", "./api.png", "./html-5.png"],
       link: "https://lambent-parfait-7774fc.netlify.app",
     },
     {
@@ -88,7 +88,7 @@ export const navItems = [
       url: 'https://github.com/Lonz8576',
       des: "Real time weather app built with React, animated icons and api interfaces.",
       img: "./weather2.png",
-      iconLists: ["./re.svg", "./three.svg", "./ts.svg", "./api.png"],
+      iconLists: ["./re.svg", "./git.svg", "./ts.svg", "./api.png"],
       link: "https://github.com/adrianhajdin/iphone",
     },
     {
@@ -115,7 +115,7 @@ export const navItems = [
       title: "Dynamic Pricing toggler",
       des: "Pricing toggler, componet made to add to websites and use template as needed.",
       img: "./pricing-toggler.png",
-      iconLists: ["/css3.png", "/git.svg", "/JS.png",  "./html-5.png"],
+      iconLists: ["/css3.png", "/git.svg", "./JS.png",  "./html-5.png"],
       link: "https://pricing-toggler.netlify.app/",
     },
   ];
