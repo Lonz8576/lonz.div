@@ -106,7 +106,7 @@ export const navItems = [
       url: 'https://github.com/Lonz8576',
       des: "Complete Ecommerence site built with stripe api, email.js and bootstrap",
       img: "./mmsite.png",
-      iconLists: ["./JS.png", "./api.png", "./bootstrap.png", "./git.png", "./html-5.png"],
+      iconLists: ["./JS.png", "./api.png", "./bootstrap.png", "./git.svg", "./html-5.png"],
       link: "https://marshmallow-moon.netlify.app",
     },
     {
