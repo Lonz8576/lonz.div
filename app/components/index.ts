@@ -112,11 +112,11 @@ export const navItems = [
     {
       id: 8,
       url: 'https://github.com/Lonz8576',
-      title: "Animated Music App",
-      des: "** In progress**  Make your favorite playlist come to life",
-      img: "",
-      iconLists: ["./next.svg", "./tail.svg", "./ts.svg", "./three.svg", ""],
-      link: "",
+      title: "Dynamic Pricing toggler",
+      des: "Pricing toggler, componet made to add to websites and use template as needed.",
+      img: "./pricing-toggler.png",
+      iconLists: ["", "", "", "./three.svg", ""],
+      link: "https://pricing-toggler.netlify.app/",
     },
   ];
 
