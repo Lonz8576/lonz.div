@@ -115,7 +115,7 @@ export const navItems = [
       title: "Dynamic Pricing toggler",
       des: "Pricing toggler, componet made to add to websites and use template as needed.",
       img: "./pricing-toggler.png",
-      iconLists: ["", "", "", "./three.svg", ""],
+      iconLists: ["./css3.png", "./git.svg", ".JS.png", "./three.svg", "./html-5.png"],
       link: "https://pricing-toggler.netlify.app/",
     },
   ];
