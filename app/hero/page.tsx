@@ -59,7 +59,7 @@ const Hero = () => {
             <Link href='mailto:8576nic@gmail.com' target='_blank'>
                 <ButtonAplogetic title='Email Me' />
             </Link>
-            <a href='https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:a97fe7b7-c9e1-45ba-b374-98de0c6fe490' target='_blank'> 
+            <a href='https://acrobat.adobe.com/id/urn:aaid:sc:va6c2:a97fe7b7-c9e1-45ba-b374-98de0c6fe490' target='_blank'> 
               <ButtonResume />
               </a>
               
