@@ -8,7 +8,7 @@ import Image from 'next/image'
 import git from "../../public/git.svg"
 import linkedin from "../../public/linkedin icon.svg"
 import Link from 'next/link'
-import aboutLink from '../about/page'
+
 
 const linksite= 'www.linkedin.com/in/nicalonso'
 
