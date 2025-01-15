@@ -18,7 +18,7 @@ export  default function AboutPage() {
       content: (
         <div>
           <p className="text-white-100 lg:text-[18px] md:text-md font-normal mb-5">
-            I first discovered web development after an injury left me with physical limitations in 2021. I realised it was a creative feild mixed with problem-solving and it was ever-evolving! I decided to enroll in <span className="text-blue-100 tracking-wider font-semibold underline"><a href="https://www.shecodes.io/graduates/126818-nichole-alonso" >SheCodes Frontend development</a></span> program to dedicate 100% of my time<span className="text-blue-100  text-3xl ps-1">.</span>
+            I have been coding for 5 years, after an injury left me with physical limitations in 2021. I realised it was a creative feild mixed with problem-solving and it was ever-evolving! I decided to enroll in <span className="text-blue-100 tracking-wider font-semibold underline"><a href="https://www.shecodes.io/graduates/126818-nichole-alonso" >SheCodes Frontend development</a></span> program to get a proper foundation and dedicate 100% of my time<span className="text-blue-100  text-3xl ps-1">.</span>
           </p>
           <div className="grid grid-cols-2 gap-1">
            
