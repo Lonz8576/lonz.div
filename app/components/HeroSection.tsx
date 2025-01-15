@@ -36,14 +36,14 @@ const Hero = () => {
        </div>
     </div>
       <Link href="/about" target='_blank' > 
-    <div className='row-start-7 mt-8 text-white-100 tracking-widest flex  justify-center  text-[20px] about-me-link'>
+    <button className='row-start-7 mt-8 text-white-100 tracking-widest flex  justify-center  text-[20px] about-me-link'>
         Know more
          <span className='about-link flex px-3'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 24" stroke-width="2.5" stroke="currentColor" className="size-7">
         <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
         </svg> <span className='flex px-3'>about me</span>
         </span>
-        </div>
+        </button>
         </Link>
         <div className='follow-me flex text-white-100 row-start-10 justify-center align-middle py-5'>
             <picture className='flex text-center justify-between align-middle'>
