@@ -8,7 +8,7 @@ import Image from 'next/image'
 import git from "../../public/git.svg"
 import linkedin from "../../public/linkedin icon.svg"
 import Link from 'next/link'
-
+import aboutLink from '../about/page'
 
 const linksite= 'www.linkedin.com/in/nicalonso'
 
@@ -35,7 +35,7 @@ const Hero = () => {
        I&apos;m a Frontend Developer who loves problem-solving, bringing ideas to life to give the best overall user experience. Based in the U.S
        </div>
     </div>
-
+      <Link href="/about" target='_blank' > 
     <div className='row-start-7 mt-8 text-white-100 tracking-widest flex  justify-center  text-[20px] about-me-link'>
         Know more
          <span className='about-link flex px-3'>
@@ -44,6 +44,7 @@ const Hero = () => {
         </svg> <span className='flex px-3'>about me</span>
         </span>
         </div>
+        </Link>
         <div className='follow-me flex text-white-100 row-start-10 justify-center align-middle py-5'>
             <picture className='flex text-center justify-between align-middle'>
               Follow me:
