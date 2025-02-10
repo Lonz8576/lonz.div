@@ -98,7 +98,7 @@ export  default function AboutPage() {
     },
   ];
   return (
-    <div className="w-full xs:hidden sm:hidden">
+    <div className="w-full ">
       <Timeline data={data} />
     </div>
   );
