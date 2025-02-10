@@ -17,7 +17,7 @@ const Hero = () => {
     <div className='pt-40 px-4'>
       <div>     
       </div>
-      <div className='h-screen w-full relative grid grid-cols-1  lg:grid-cols-2 gap-x-10 items-center px-8'>
+      <div className='h-screen w-full relative grid grid-cols-1  md:grid-cols-2 lg:grid-cols-2  gap-x-10 items-center px-8'>
       <div className=' w-full relative  bottom-40 items-center'> 
 
       <div className='relative text-start items-center grid  grid-rows pt-20 '>
@@ -38,13 +38,15 @@ const Hero = () => {
       <Link href="/about" target='_blank' > 
     <button className='row-start-7 mt-8 text-white-100 tracking-widest flex  justify-center  text-[20px] about-me-link'>
         Know more
+        </button>
+        </Link>
          <span className='about-link flex px-3'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 24" stroke-width="2.5" stroke="currentColor" className="size-7">
         <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
         </svg> <span className='flex px-3'>about me</span>
         </span>
-        </button>
-        </Link>
+       
+        
         <div className='follow-me flex text-white-100 row-start-10 justify-center align-middle py-5'>
             <picture className='flex text-center justify-between align-middle'>
               Follow me:
@@ -72,7 +74,7 @@ const Hero = () => {
                  
         </div>
         </div>
-        <div className='images ms-8'>
+        <div className='images ms-8 hidden lg:block '>
           <picture>
         <img src= 'https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/064/original/20211002_105331-EDIT-EDIT.jpg?1717359345'  className=' headshot flex relative -top-20 shadow-lg items-center   justify-between' alt='Nics headshot' />
         </picture>
