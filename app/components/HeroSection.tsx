@@ -17,7 +17,7 @@ const Hero = () => {
     <div className='pt-40 px-4'>
       <div>     
       </div>
-      <div className='h-screen w-full relative grid grid-cols-1 md:grid-cols-2 lg:gr-d-cols-2 gap-x-10 items-center px-8'>
+      <div className='h-screen w-full relative grid grid-cols-1  lg:gr-d-cols-2 gap-x-10 items-center px-8'>
       <div className=' w-full relative  bottom-40 items-center'> 
 
       <div className='relative text-start items-center grid  grid-rows pt-20 '>
