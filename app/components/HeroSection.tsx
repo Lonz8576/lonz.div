@@ -35,11 +35,11 @@ const Hero = () => {
        I&apos;m a Frontend Developer who loves problem-solving, bringing ideas to life to give the best overall user experience. Based in the U.S
        </div>
     </div>
-      <Link href="/about" target='_blank' > 
+      <a href="/about" target='_blank' > 
     <button className='row-start-7 mt-8 text-white-100 tracking-widest flex  justify-center  text-[20px] about-me-link'>
         Know more
         </button>
-        </Link>
+        </a>
          <span className='about-link flex px-3'>
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 26 24" stroke-width="2.5" stroke="currentColor" className="size-7">
         <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" />
@@ -74,7 +74,7 @@ const Hero = () => {
                  
         </div>
         </div>
-        <div className='images ms-8 '>
+        <div className='images ms-8 xs:invisible md:invisible '>
           <picture>
         <img src= 'https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/064/original/20211002_105331-EDIT-EDIT.jpg?1717359345'  className=' headshot flex relative w-full -top-20 shadow-lg items-center   justify-between' alt='Nics headshot' />
         </picture>
