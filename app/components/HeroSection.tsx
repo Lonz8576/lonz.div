@@ -17,7 +17,7 @@ const Hero = () => {
     <div className='pt-40 px-4'>
       <div>     
       </div>
-      <div className='h-screen w-full relative grid grid-cols-1  md:grid-cols-2 lg:grid-cols-2  gap-x-10 items-center px-8'>
+      <div className='h-screen w-full relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-x-10 items-center px-8'>
       <div className=' w-full relative  bottom-40 items-center'> 
 
       <div className='relative text-start items-center grid  grid-rows pt-20 '>
@@ -64,7 +64,7 @@ const Hero = () => {
             <Link href='mailto:8576nic@gmail.com' target='_blank'>
                 <ButtonAplogetic title='Email Me' />
             </Link>
-            <a href='https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:e99add4c-cfe5-490e-89bc-06c18bf93b58' target='_blank'> 
+            <a href='https://acrobat.adobe.com/id/urn:aaid:sc:VA6C2:444de5d1-9750-4511-a98a-ebc2a149b573' target='_blank'> 
               <ButtonResume />
               </a>
               
