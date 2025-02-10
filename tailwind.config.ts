@@ -23,10 +23,13 @@ const config = {
   ],
   prefix: "",
   theme: {
+	
 container: {
 	
 	padding: '3rem',
 	screens: {
+		'xs': '480px',
+		'sm': '580px',
 		'2xl': '1300px'
 	}
 },

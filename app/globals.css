@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=The+Girl+Next+Door&display=swap');
 
+@import "tailwindcss";
 
 @import "tailwindcss/base";
 
@@ -12,6 +13,8 @@
 *{
 font-family: var(--main-font);
 }
+
+
 
 @layer base {
   :root {
@@ -30,6 +33,7 @@ font-family: var(--main-font);
     --play-font: "The Girl Next Door", cursive;
     --main-font:  "Josefin Sans", sans-serif;
 
+   
   }}
   
   .title-text{
