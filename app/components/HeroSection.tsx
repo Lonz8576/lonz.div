@@ -72,7 +72,7 @@ const Hero = () => {
                  
         </div>
         </div>
-        <div className=' images ms-8 '>
+        <div className=' images ms-8 sm:invisible'>
           <picture>
         <img src= 'https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/064/original/20211002_105331-EDIT-EDIT.jpg?1717359345'  className='flex headshot relative -top-20 shadow-lg items-center justify-between' alt='Nics headshot' />
         </picture>
