@@ -61,7 +61,7 @@ export  default function AboutPage() {
           <p className="text-white-100  text-xs md:text-sm font-normal mb-4">
           Art and creativity have always been a core part of my life. I have cultivated a deep appreciation for expression, aesthetics, and visual storytelling. This creative foundation has seamlessly translated into my web development work, where I use my artistic skills in various ways<span className="text-blue-100">:</span>
           </p>
-          <div className="mb-8 grid  md:grid-cols-2  lg:grid-cols-2  gap-2">
+          <div className="mb-8 grid grid-cols-2  gap-2">
             <div className="flex gap-2 items-center text-white-100 text-xs md:text-sm ">
               <Image src={gir} width={100} height={200} alt="Giraffe Nft" />
             </div> 
@@ -98,7 +98,7 @@ export  default function AboutPage() {
     },
   ];
   return (
-    <div className="w-full">
+    <div className="w-full xs:hidden sm:hidden">
       <Timeline data={data} />
     </div>
   );
