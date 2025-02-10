@@ -17,7 +17,7 @@ const Hero = () => {
     <div className='pt-40 px-4'>
       <div>     
       </div>
-      <div className='h-screen w-full relative grid grid-cols-2 gap-x-10 items-center px-8'>
+      <div className='h-screen w-full relative grid grid-cols-1 md:grid-cols-2 lg:gr-d-cols-2 gap-x-10 items-center px-8'>
       <div className=' w-full relative  bottom-40 items-center'> 
 
       <div className='relative text-start items-center grid  grid-rows pt-20 '>
@@ -74,7 +74,7 @@ const Hero = () => {
         </div>
         <div className='images ms-8'>
           <picture>
-        <img src= 'https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/064/original/20211002_105331-EDIT-EDIT.jpg?1717359345'  className=' headshot flex relative -top-20 shadow-lg items-center  sm:hidden xs:hidden justify-between' alt='Nics headshot' />
+        <img src= 'https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/064/original/20211002_105331-EDIT-EDIT.jpg?1717359345'  className=' headshot flex relative -top-20 shadow-lg items-center   justify-between' alt='Nics headshot' />
         </picture>
           
            </div>
