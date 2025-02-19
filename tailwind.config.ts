@@ -189,6 +189,7 @@ extend: {
   },
   plugins: [
     // eslint-disable-next-line @typescript-eslint/no-require-imports
+	
     require("tailwindcss-animate"),
     addVariablesForColors,
     function ({ matchUtilities, theme }: any) {
