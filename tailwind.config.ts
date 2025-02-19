@@ -24,8 +24,8 @@ const config = {
   prefix: "",
   theme: {
 	screens: {
-		'xs': '480px',
-		'sm': '580px'
+		'sm': '480px',
+		'md': '580px',
 		
 	},
 	
