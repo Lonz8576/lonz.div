@@ -23,6 +23,11 @@ const config = {
   ],
   prefix: "",
   theme: {
+	screens: {
+		'xs': '480px',
+		'sm': '580px'
+		
+	},
 	
 container: {
 	
