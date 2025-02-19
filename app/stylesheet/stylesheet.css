@@ -4,20 +4,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=The+Girl+Next+Door&display=swap');
 
-@import "tailwindcss/base";
-
-@import "tailwindcss/components";
-
-@import "tailwindcss/utilities";
 
 *{
 font-family: var(--main-font);
 }
 
-
-
-@layer base {
-  :root {
+:root {
     --foreground: #222831;
     --background: #393e46;
     --light-bg-color:  #00adb5;
@@ -34,7 +26,7 @@ font-family: var(--main-font);
     --main-font:  "Josefin Sans", sans-serif;
 
    
-  }}
+  }
   
   .title-text{
     font-family: var(--play-font);
@@ -97,4 +89,3 @@ font-family: var(--main-font);
 .heading{
   font-family: var(--prata-font);
 }
-

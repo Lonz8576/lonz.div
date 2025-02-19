@@ -5,10 +5,6 @@ import type { Config } from "tailwindcss";
 
 import svgToDataUri from "mini-svg-data-uri";
 
-
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import colors from "tailwindcss/colors";
-import { config } from "process";
 const {
   default: flattenColorPalette,
 } = require("tailwindcss/lib/util/flattenColorPalette");
@@ -230,4 +226,3 @@ function addVariablesForColors({ addBase, theme }: any) {
   });
 }
 
-export default config;

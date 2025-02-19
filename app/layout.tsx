@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 
-import "./"
-
-
+import './global.css'
 
 import { navItems } from "./components"
 import { FloatingNav } from "./components/FloatingNav"
