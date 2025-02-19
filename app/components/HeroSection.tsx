@@ -17,7 +17,7 @@ const Hero = () => {
     <div className='pt-40 px-4'>
       <div>     
       </div>
-      <div className='h-screen w-full relative grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-x-10 items-center px-8'>
+      <div className='h-screen w-full relative grid grid-cols-1 sm:flex md:grid-cols-2  gap-x-10 items-center px-8'>
       <div className=' w-full relative  bottom-40 items-center'> 
 
       <div className='relative text-start items-center grid  grid-rows pt-20 '>
@@ -61,7 +61,7 @@ const Hero = () => {
               </picture>
             </div>
 
-          <div className=' flex justify-evenly'>
+          <div className='flex justify-evenly'>
             <Link href='mailto:8576nic@gmail.com' target='_blank'>
                 <ButtonAplogetic title='Email Me' />
             </Link>
@@ -75,9 +75,9 @@ const Hero = () => {
                  
         </div>
         </div>
-        <div className='images ms-8 sm:hidden '>
+        <div className='images ms-8 sm:flex'>
           <picture>
-        <img src= 'https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/064/original/20211002_105331-EDIT-EDIT.jpg?1717359345'  className=' headshot flex relative w-fit sm:hidden -top-20 shadow-lg items-center  justify-between ' alt='Nics headshot' />
+        <img className=' headshot flex relative w-fit -top-20 shadow-lg items-center  justify-between ' src= 'https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/064/original/20211002_105331-EDIT-EDIT.jpg?1717359345'   alt='Nics headshot' />
         </picture>
           
            </div>
