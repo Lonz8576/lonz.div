@@ -70,9 +70,9 @@ const Hero = () => {
         </div>
         </div>
         <div className='images mb-20 pb-20 md:flex justify-evenly xs:hidden sm:hidden '>
-          <picture>
+         
         <Image src={headshot} width={300}  height={300} className='flex headshot relative -top-10  shadow-lg items-center  justify-between' alt='Nics headshot' />
-        </picture>
+       
           
            </div>
 

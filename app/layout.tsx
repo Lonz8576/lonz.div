@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 
-import "./globals.css";
+import 'tailwindcss'
+import "app/globals.css"
 
 
 
